@@ -1,0 +1,30 @@
+{
+  "name": "mcp-personal-email-to-company-resolver",
+  "displayName": "Personal Email to Company Resolver",
+  "version": "1.0.0",
+  "description": "MCP server for Personal Email to Company Resolver. Find the likely employer behind a Gmail, Outlook, or other free mail signup, with a confidence and the public evidence, from Gravatar, signed GitHub commits, and LinkedIn results. Runs on Apify. Clay-ready output.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-personal-email-to-company-resolver",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "email-enrichment",
+    "plg",
+    "signup-enrichment",
+    "reverse-email",
+    "apify"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "email-enrichment",
+    "plg",
+    "signup-enrichment",
+    "reverse-email"
+  ],
+  "mcpServers": ".mcp.json"
+}

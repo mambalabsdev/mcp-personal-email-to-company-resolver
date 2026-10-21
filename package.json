@@ -1,0 +1,50 @@
+{
+  "name": "@mambalabsdev/mcp-personal-email-to-company-resolver",
+  "version": "1.0.0",
+  "description": "MCP server for Personal Email to Company Resolver. Find the likely employer behind a Gmail, Outlook, or other free mail signup, with a confidence and the public evidence, from Gravatar, signed GitHub commits, and LinkedIn results. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-personal-email-to-company-resolver": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "email-enrichment",
+    "plg",
+    "signup-enrichment",
+    "reverse-email",
+    "apify",
+    "clay",
+    "lead-generation"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/personal-email-to-company-resolver",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-personal-email-to-company-resolver"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-personal-email-to-company-resolver"
+}

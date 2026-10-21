@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-personal-email-to-company-resolver": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-personal-email-to-company-resolver"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
