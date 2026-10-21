@@ -218,7 +218,7 @@ server.registerTool(
       emails: z.array(z.string()).optional().describe("Several addresses, up to 300. A company address returns its own domain, free."),
       github_token: z.string().optional().describe("Optional. Your own free GitHub token, for batches over about 25 addresses. Used for this run only and never stored."),
       search_web: bool().describe("true adds one exact Google search for an address that Gravatar and GitHub leave without an employer. Default false."),
-      use_linkedin_resolver: bool().describe("true (default) runs Mamba Labs Person LinkedIn URL Resolver from your account for the addresses with a name and an employer, billed at that actor's own price per profile found (0.037 USD on the free plan). false skips it."),
+      use_linkedin_resolver: bool().describe("true (default) runs Mamba Labs Person LinkedIn URL Resolver from your account for the addresses with a name and an employer, billed at that actor's own price per profile found (0.34 USD on the free plan). false skips it."),
       country: z.string().optional().describe("Two letter Google country code. Default us."),
       max_charge_usd: z.string().optional().describe("Optional. The run stops before a charge that would pass this amount; it is passed to the LinkedIn step too."),
     },
