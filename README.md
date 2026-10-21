@@ -91,7 +91,7 @@ Pay per event on Apify, billed to your Apify account. Prices in USD.
 | `email-resolved`, per address with an employer at 0.75 or more | $0.025 | $0.02375 | $0.0225 | $0.02125 |
 | `apify-actor-start`, per run start | $0.0005 | $0.0005 | $0.0005 | $0.0005 |
 
-Every other row is free. With `use_linkedin_resolver` on, Person LinkedIn URL Resolver bills its own events on top: $0.34 per profile found plus $0.0005 per run on the free plan.
+Every other row is free. With `use_linkedin_resolver` on, Person LinkedIn URL Resolver bills its own events on top: $0.035 per person sent to it, found or not, plus $0.0005 per run on the free plan.
 
 ## Your keys
 
